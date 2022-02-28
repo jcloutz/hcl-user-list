@@ -1,0 +1,15 @@
+.table {
+  width: 100%;
+}
+
+.table_headRow {
+  border-top: 1px solid #8f8f8f;
+  border-bottom: 1px solid #8f8f8f;
+}
+
+.table_row:not(:last-of-type) {
+  border-bottom: 1px solid #e1e1e1;
+}
+.table_cell {
+  padding: 5px;
+}
